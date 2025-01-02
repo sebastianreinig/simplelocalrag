@@ -21,8 +21,10 @@ pip install llama-index llama-index-llms-ollama llama-index-embeddings-ollama  r
 1. Start Ollama
 Launch Ollama so it serves on the default port (11411). Confirm you have the models:
 
+```bash
 ollama run mxbai-embed-large
 ollama run llama3.2
+```
 (These commands just verify that the models are recognized. Then stop them if needed.)
 
 2. Place Your PDF
