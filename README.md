@@ -13,7 +13,7 @@ Simply provide a PDF, open the Jupyter Notebook and start the code, then ask nat
 - [Ollama](https://github.com/jmorganca/ollama) installed and running locally on `http://localhost:11411`  
   - Make sure you have the models **mxbai-embed-large** (for embeddings) and **llama3.2** (for text generation) available in Ollama.
 - Required Python packages (install via `pip`):
-  ```bash
+```bash
 pip install llama-index llama-index-llms-ollama llama-index-embeddings-ollama  requests
 ```
 
